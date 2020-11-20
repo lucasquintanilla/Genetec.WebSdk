@@ -20,3 +20,10 @@ Console.WriteLine($"EmailAddress:   {cardholder.EmailAddress}");
 Console.WriteLine($"Description:    {cardholder.Description}");
 
 ```
+
+## Features
+Some of features:
+
+|    |    |    |    |
+| ------ | ------ | ------ | ------ |
+| GetEntityAsync | CreateEntityAsync | DeleteEntityAsync | EntityConfigurationQuery |
