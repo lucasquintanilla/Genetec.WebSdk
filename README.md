@@ -27,6 +27,12 @@ WebSdk webSdk = new WebSdk(client);
 
 Cardholder cardholder = await webSdk.GetEntityAsync<Cardholder>(cardholderGuid);
 
+```
+
+## Cardholder Properties
+
+```c#
+
 Console.WriteLine($"FirstName:      {cardholder.FirstName}");
 Console.WriteLine($"LastName:       {cardholder.LastName}");
 Console.WriteLine($"State:          {cardholder.Status.State}");
