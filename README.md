@@ -27,3 +27,9 @@ Some of features:
 |    |    |    |    |
 | ------ | ------ | ------ | ------ |
 | GetEntityAsync | CreateEntityAsync | DeleteEntityAsync | EntityConfigurationQuery |
+
+## Entities supported
+
+|    |    |    |    |
+| ------ | ------ | ------ | ------ |
+| Entity | Cardholder | Credential | EntityConfigurationQuery |
