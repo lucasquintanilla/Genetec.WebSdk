@@ -1,5 +1,17 @@
 # Genetec.WebSdk - a simple wrapper for .NET Core
 
+## Config client
+
+```c#
+
+HttpClientHandler handler = new HttpClientHandler();
+handler.Credentials = new NetworkCredential($"{username};{applicationId}", password);
+
+var client = new HttpClient(handler);
+client.BaseAddress = new Uri($"{server}:{port}/{baseUri}/");
+
+```
+
 ## Usage
 
 ```c#
@@ -7,8 +19,8 @@
 WebSdk webSdk = new WebSdk(client);
 
 ```
-
-## Get Cardholder
+## Samples
+## Get Cardholder Sample
 
 ```c#
 
