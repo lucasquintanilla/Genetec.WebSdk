@@ -20,7 +20,8 @@ WebSdk webSdk = new WebSdk(client);
 
 ```
 ## Samples
-## Get Cardholder Sample
+
+## Get Cardholder
 
 ```c#
 
