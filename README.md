@@ -60,7 +60,7 @@ foreach (var credential in cardholder.Credentials.Collection)
 
 if (cardholder.Groups.Collection.Count() < 1)
 {
-    Console.WriteLine("Cardholder no pertenece a ningun Cardholder Group");
+    Console.WriteLine("Cardholder no pertenece a ningun groupo");
 }
 
 foreach (var group in cardholder.Groups.Collection)
@@ -78,7 +78,7 @@ if (picture == null)
 }
 else
 {
-    picture.Save("picture2.jpeg");
+    picture.Save("CardholderPicture.jpeg");
 }
 
 ```
