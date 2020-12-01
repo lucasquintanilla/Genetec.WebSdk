@@ -95,3 +95,7 @@ Some of features:
 |    |    |    |    |
 | ------ | ------ | ------ | ------ |
 | Entity | Cardholder | Credential | EntityConfigurationQuery |
+
+## Dependencies
+
+### Newtonsoft.Json
