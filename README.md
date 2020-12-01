@@ -4,13 +4,14 @@
 
 ```c#
 
-HttpClientHandler handler = new HttpClientHandler();
-handler.Credentials = new NetworkCredential($"{username};{applicationId}", password);
-
-var client = new HttpClient(handler);
-client.BaseAddress = new Uri($"{server}:{port}/{baseUri}/");
-
 WebSdk webSdk = new WebSdk(client);
+
+```
+
+## Get Cardholder
+
+```c#
+
 Cardholder cardholder = await webSdk.GetEntityAsync<Cardholder>(cardholderGuid);
 
 Console.WriteLine($"FirstName:      {cardholder.FirstName}");
