@@ -1,6 +1,6 @@
 # Genetec.WebSdk - a simple wrapper for .NET Core
 
-## Config client
+## Client configuration
 
 ```c#
 
